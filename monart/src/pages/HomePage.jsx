@@ -1,6 +1,6 @@
 
 
-import { useNavigate} from 'react-rouer-dom'
+import { useNavigate} from 'react-router-dom'
 import ProductList from '../components/products/ProductList'
 
 const HomePage = ()=>{

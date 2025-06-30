@@ -4,7 +4,7 @@ import {api} from '../servics/api';
 
 export const useProducts = () => {
     const [ products , setProducts ] = useState([]);
-    const [ loading ,setLoading ] = useState(ture);
+    const [ loading ,setLoading ] = useState(true);
     const [error , setError] = useState(null);
     useEffect(()=>{
         const featchProduct = async () => {

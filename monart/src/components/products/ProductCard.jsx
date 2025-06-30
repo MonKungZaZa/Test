@@ -3,8 +3,8 @@ const ProductCard = ({ product, onViewDetail }) => {
     return (
         <div className="Product-card">
             <img
-                src="product.thumbnail"
-                alt="product.title"
+                src={product.thumbnail}
+                alt={product.title}
                 className="product-image"
             />
             <div className="classproduct-info">
