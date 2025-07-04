@@ -8,6 +8,11 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        
+        {/* <Route
+        path="/product/:id"
+        element= {<ProductP} */}
+
       </Routes>
     </Router>
   );
